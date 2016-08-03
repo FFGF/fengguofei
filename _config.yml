@@ -5,9 +5,9 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
 
-source: fengguofei
 
-assets: /assets
+
+assets: /fengguofei/assets
 baseurl: /fengguofei
 
 # pagination
