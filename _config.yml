@@ -3,27 +3,18 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: pygments
+highlighter: rouge
 
-
-
-assets: /fengguofei/assets
-baseurl: /fengguofei
+assets: /assets
+baseurl: 
 
 # pagination
 paginate: 20
 
 # Markdown Processors
-markdown: redcarpet
-redcarpet:
-  extensions:
-    - hard_wrap
-    - no_intra_emphasis
-    - autolink
-    - strikethrough
-    - tables
-    - lax_spacing
-    - with_toc_data
+markdown: kramdown
+kramdown:
+    input: GFM
     
 
 title : Jekyll Jacman
